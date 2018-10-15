@@ -1,7 +1,7 @@
 # springCloudLearn
-1、什么是微服务？  
+一、什么是微服务？  
 &nbsp;&nbsp;&nbsp;&nbsp;微服务是系统架构上的一种设计风格，它的主旨将原本独立的系统拆分成多个小型的服务，这些小型服务都在各自独立的进程中运行，服务之间都是通过基于Http的Restful API进行通信协作。  
-2、微服务架构的特性  
+二、微服务架构的特性  
 &nbsp;&nbsp;1)服务组件化  
 &nbsp;&nbsp;2)业务团队化  
 &nbsp;&nbsp;3)服务产品化  
@@ -11,27 +11,18 @@
 &nbsp;&nbsp;7)运维自动化  
 &nbsp;&nbsp;8)容错设计  
 &nbsp;&nbsp;9)演进式设计  
+三、springcloud是基于springboot实现的微服务框架开发工具  
+微服务架构中涉及内容如下：配置管理、服务治理、断路器、智能路由、微代理、控制总线、全局锁、决策竞选、分布式会话、集群状态管理。  
+1、配置管理  
+spring could config配置管理工具，支持使用git存储配置内容，可以使用它实现应用配置的外部化存储，并支持客户端信息刷新、加密/解密配置内容。
+2、服务治理  
+3、断路器  
+4、智能路由  
+5、微代理  
+6、控制总线  
+7、全局锁  
+8、决策竞选  
+9、分布式会话  
+10、集群状态管理  
 
 
-# 一、spring cloud config
-
-# 二、spring cloud Netflix
-
-# 三、spring cloud bus
-
-# 四、spring cloud for cloud foundry
-
-# 五、spring cloud open service broker
-
-# 六、spring cloud clust
-
-# Other
-# 1.Zuul路由网关详解及源码探析
-# 2.Ribbon客户端负载均衡原理与算法详解
-# 3.Feign声明式服务调用方式实现
-# 4.Hystrix服务熔断及服务降级实战
-# 5.Eureka注册中心构件及源码分析
-# 6.Config配置服务中心与SVN、git快速集成
-# 7.Sleuth调用链路跟踪
-# 8.Bus消息总线技术
-# 9.Stream消息驱动的微服务
