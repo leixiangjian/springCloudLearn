@@ -1,4 +1,18 @@
 # springCloudLearn
+1、什么是微服务？  
+&nbsp;&nbsp;&nbsp;&nbsp;微服务是系统架构上的一种设计风格，它的主旨将原本独立的系统拆分成多个小型的服务，这些小型服务都在各自独立的进程中运行，服务之间都是通过基于Http的Restful API进行通信协作。  
+2、微服务架构的特性  
+&nbsp;&nbsp;1)服务组件化  
+&nbsp;&nbsp;2)业务团队化  
+&nbsp;&nbsp;3)服务产品化  
+&nbsp;&nbsp;4)服务平衡化  
+&nbsp;&nbsp;5)去中心化治理  
+&nbsp;&nbsp;6)去中心化管理数据  
+&nbsp;&nbsp;7)运维自动化  
+&nbsp;&nbsp;8)容错设计  
+&nbsp;&nbsp;9)演进式设计  
+
+
 # 一、spring cloud config
 
 # 二、spring cloud Netflix
