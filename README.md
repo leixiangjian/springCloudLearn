@@ -40,11 +40,12 @@ spring cloud security：安全工具包，提供在Zuul代理中对Oauth2客户�
 spring cloud aws：用于简化整合Amazon Web service的组件。  
 spring cloud cloudFoundry：与Pivotal cloudfoundry的整合支持。  
 四、springboot与springcloud的版本关系  
-| Spring Cloud | Spring Boot |
-| ------ | ------ |
-| Finchley	| 兼容Spring Boot 2.0.x，不兼容Spring Boot 1.5.x |
-| Dalston和Edgware | 兼容Spring Boot 1.5.x，不兼容Spring Boot 2.0.x |
-| Camden | 兼容Spring Boot 1.4.x，也兼容Spring Boot 1.5.x |
-| Brixton | 兼容Spring Boot 1.3.x，也兼容Spring Boot 1.4.x |
-| Angel	| 兼容Spring Boot 1.2.x |
+<table>
+<tr><th>Spring Cloud</th><th>Spring Boot</th></tr>
+<tr><td>Finchley</td><td>兼容Spring Boot 2.0.x，不兼容Spring Boot 1.5.x</td></tr>
+<tr><td>Dalston和Edgware</td><td>兼容Spring Boot 1.5.x，不兼容Spring Boot 2.0.x</td></tr>
+<tr><td>Camden</td><td>兼容Spring Boot 1.4.x，也兼容Spring Boot 1.5.x</td></tr>
+<tr><td>Brixton</td><td>兼容Spring Boot 1.3.x，也兼容Spring Boot 1.4.x</td></tr>
+<tr><td>Angel</td><td>兼容Spring Boot 1.2.x</td></tr>
+</table>
 
